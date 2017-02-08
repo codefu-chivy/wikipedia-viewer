@@ -1,0 +1,63 @@
+.first {
+  text-align: center;
+  margin: 200px auto;
+  max-width: 80%;
+  background-color: gainsboro;
+  border-radius: 6px;
+}
+.boxes {
+  text-align: center;
+  margin: 30px auto;
+  max-width: 70%;
+  background-color: gainsboro;
+  border-radius: 6px;
+  padding: 10px;
+  text-align: center;
+  display: block;
+}
+#outer:hover {
+  text-decoration: none;
+  box-shadow: 2px 2px 2px black;
+  border-right: 10px solid orange; 
+}
+h1 {
+  text-align: center;
+  font-size: 60px;
+  max-width: 100%;
+}
+h2 {
+  margin-top: -5px;
+  text-align: center;
+  color: dodgerblue;  
+}
+.form-control {
+  max-width: 40%;
+  margin: 35px auto;
+  margin-bottom: 20px
+}
+#random {
+  margin: 10px auto !important;
+  border-radius: 0px;
+}
+h3 {
+  font-size: 20px;
+  color: black;
+}
+.title {
+  font-style: italic;
+}
+
+@media screen and (max-width: 600px) {
+  .first {
+    max-width: 100%;
+  }
+  #welcome {
+    font-size: 45px;
+  }
+  .form-control {
+    max-width: 85%;
+  }
+  h2 {
+    font-size: 25px;
+  }
+}
