@@ -24,16 +24,19 @@ h1 {
   text-align: center;
   font-size: 60px;
   max-width: 100%;
+  display: none;
 }
 h2 {
   margin-top: -5px;
   text-align: center;
-  color: dodgerblue;  
+  color: dodgerblue; 
+  display: none; 
 }
 .form-control {
   max-width: 40%;
   margin: 35px auto;
-  margin-bottom: 20px
+  margin-bottom: 20px;
+  display: none;
 }
 #random {
   margin: 10px auto !important;
