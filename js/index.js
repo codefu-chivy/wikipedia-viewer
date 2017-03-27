@@ -1,6 +1,3 @@
-$("h1").hide();
-$("h2").hide();
-$(".form-control").hide();
 $(function() {
   var updatePage = function() {
     $(".boxes").remove().fadeOut(1000);
